@@ -1,0 +1,17 @@
+:root {
+    --color: 0;
+  }
+  
+  body {
+    background: hsl(var(--color),100%,50%);  
+  }
+  
+  .color {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #000;
+    background: red;
+    display: block;
+    transform: rotate(-90deg);
+    margin-top: 200px;
+  }
